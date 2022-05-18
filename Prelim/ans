@@ -1,0 +1,22 @@
+function calculator() {
+	var num1 = 5;
+	var num2 = 5;
+	var d = "division";
+
+	if(d === "multiplication"){
+		return num1 * num2;
+	}
+	else if(d === "division" ){
+		return num1 / num2;
+	}
+	else if(d === "addition") {
+		return num1 + num2;
+	}
+	else if (d === "substruction"){
+		return num1 - num2;
+	}
+	else{
+		console.log("");
+	}
+}
+calculator();
